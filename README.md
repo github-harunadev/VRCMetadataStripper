@@ -20,6 +20,8 @@ When program is first launched, it will create `VRCMetadataStripper.config.json`
 - `overwriteExistingPhoto`: bool, supports `true`, `false`
   - If this value is `true`, program will overwrite instead of creating a clone.
 	- *You have been warned, there's no way to invert changes. _You have been warned twice._*
+
+
 Incorret-formatted config file will be ignored by program.
 
 ## License and other information
