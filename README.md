@@ -31,7 +31,11 @@ VRChat is known for actively monitoring some types of contents, especially NSFW 
 
 Not only that, if the world is only accessible through URL, any photos taken in that world will going to expose world UUID, possibly allowing for someone without permission to open instances, if that image is shared on public without stripping metadata.
 
-VRCX similarly tries to include any exposed data (who were in the instance, ETC) to the taken photo, which could possibly contain other player's UUID. This could lead to privacy violation, if that photos were shared without stripping out metadata.
+VRCX similarly tries to include any exposed data (who were in the instance, ETC) to the taken photo, which could possibly contain other player's UUID. This could lead to privacy violation, if that photos were shared without stripping out metadata. Fortunately this feature is togglable, but most of the player does not care about it.
+
+Stalking might also be a problem. If someone found a player on SNS and decided to track them, they have an easy start by just looking into image metadata. Some SNS are known to strip some or all metadata, but not all SNS does it.
+
+Although the possibility of any case happening above is probably small, but it's still possible, and there might be someone cares about these cases.
 
 ## License and other information
 This project is licensed under Apache License 2.0.
