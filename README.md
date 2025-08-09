@@ -1,5 +1,5 @@
 # VRCMetadataStripper
-This simple program find images (with any metadata) through ALL the photos in the folder (where EXE is located), and clones/overwrites the images.
+This simple program find images (with any metadata) through ALL the photos in the folder (where EXE is located), and clones/overwrites the image with stripped metadata, so that the image no longer contains VRChat (as well as other) metadata.
 
 Supports JPG, JPEG, and PNG. This program also allows scanning/processing images outside VRChat Photo folder, but unexpected issue may happen.
 
@@ -22,7 +22,13 @@ When program is first launched, it will create `VRCMetadataStripper.config.json`
 	- *You have been warned, there's no way to invert changes. _You have been warned twice._*
 
 
-Incorrect-formatted config file will be ignored by program.
+Incorrect-formatted config file will be ignored.
+
+## Reason to strip metadata?
+Biggest reason behind stripping metadata from VRChat photo is to keep anonymous and help maintaining privacy.
+VRChat is known for actively monitoring some types of contents, especially NSFW category. If a moderator found a certain image that contains metadata of a player's name or world's name, moderator could easily find the user and possibly ban them.
+Not only that, if the world is only accessible through URL, any photos taken will going to expose world UUID, possibly allowing for someone without permission to open instances.
+VRCX on the other hand tries to include any exposed data to the taken photo, which could possibly contain other player's UUID. This could lead to privacy violation, if were to say.
 
 ## License and other information
 This project is licensed under Apache License 2.0.
