@@ -27,11 +27,11 @@ Incorrect-formatted config file will be ignored.
 ## Reason to strip metadata?
 Biggest reason behind stripping metadata from VRChat photo is to keep anonymous and help maintaining privacy.
 
-VRChat is known for actively monitoring some types of contents, especially NSFW category. If a moderator found a certain image that contains metadata of a player's name or world's name, moderator could easily find the user and possibly ban them.
+VRChat is known for actively monitoring some types of contents, especially NSFW category. If a moderator found a certain image that contains metadata of a player's name or world's name, moderator could easily find the user and possibly take action on them.
 
-Not only that, if the world is only accessible through URL, any photos taken will going to expose world UUID, possibly allowing for someone without permission to open instances.
+Not only that, if the world is only accessible through URL, any photos taken in that world will going to expose world UUID, possibly allowing for someone without permission to open instances, if that image is shared on public without stripping metadata.
 
-VRCX on the other hand tries to include any exposed data to the taken photo, which could possibly contain other player's UUID. This could lead to privacy violation, if that photos were shared without stripping out metadata.
+VRCX similarly tries to include any exposed data (who were in the instance, ETC) to the taken photo, which could possibly contain other player's UUID. This could lead to privacy violation, if that photos were shared without stripping out metadata.
 
 ## License and other information
 This project is licensed under Apache License 2.0.
