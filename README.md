@@ -22,7 +22,7 @@ When program is first launched, it will create `VRCMetadataStripper.config.json`
 	- *You have been warned, there's no way to invert changes. _You have been warned twice._*
 
 
-Incorret-formatted config file will be ignored by program.
+Incorrect-formatted config file will be ignored by program.
 
 ## License and other information
 This project is licensed under Apache License 2.0.
