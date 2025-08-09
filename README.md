@@ -6,7 +6,7 @@ Supports JPG, JPEG, and PNG. This program also allows scanning/processing images
 Supports English, Korean, and Japanese.
 
 ## Usage
-1. Download latest EXE from Releases
+1. Download latest EXE from [Releases](https://github.com/github-harunadev/VRCMetadataStripper/releases)
 2. Place the EXE inside VRChat Photos folder (normally `C:\Users\your_name\Pictures\VRChat`)
 3. Run the EXE. Follow the instruction.
 
